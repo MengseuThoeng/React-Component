@@ -20,7 +20,7 @@ export default function Main() {
       <h1 class="text-[50px] text-center">
         <strong>Feed back</strong>
       </h1>
-      <section className="flex justify-evenly">
+      <section className="grid grid-cols-1 sm:grid-cols-3 gap-4 justify-items-center">
         <FeedBack />
         <FeedBack />
         <FeedBack />
